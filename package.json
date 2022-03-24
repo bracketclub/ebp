@@ -1,0 +1,45 @@
+{
+  "name": "@lukekarrys/ebp",
+  "description": "Get all the possible outcomes for an ESPN bracket challenge group",
+  "version": "1.0.1",
+  "author": "Luke Karrys <luke@lukekarrys.com>",
+  "bin": {
+    "ebp": "./bin/results.js",
+    "entries": "./bin/entries.js"
+  },
+  "dependencies": {
+    "bracket-data": "^4.7.0",
+    "bracket-possibilities": "^1.4.0",
+    "bracket-scorer": "^3.4.2",
+    "bracket-updater": "^3.4.7",
+    "bracket-validator": "^3.1.1",
+    "html-entities": "^2.3.2",
+    "just-pick": "^4.0.1",
+    "node-fetch": "^2.6.7",
+    "piscina": "^3.2.0",
+    "scrape-it": "^5.3.2",
+    "single-line-log": "^1.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "prettier": "^2.6.0"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "eslintConfig": {
+    "env": {
+      "es2022": true,
+      "node": true
+    },
+    "extends": "eslint:recommended"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "license": "ISC",
+  "prettier": {
+    "semi": false
+  }
+}
