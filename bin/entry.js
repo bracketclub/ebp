@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const getEntries = require("../lib/entries.js")
+const getBracket = require("../lib/entry.js")
 
-getEntries(process.argv[2])
+getBracket(process.argv[2])
   .then((d) => console.log(JSON.stringify(d, null, 2)))
   .catch((e) => {
     process.exitCode = 1
