@@ -10,6 +10,8 @@ This will calculate all remaining outcomes and determine the winner for each (in
 npx @lukekarrys/ebp@latest $GROUP_ID [--fetch|--calculate]
 ```
 
+![](./docs/all.png)
+
 ### Get if each entry can win
 
 This is a faster since it stops once each entry has at least one possible winning outcome.
@@ -17,6 +19,8 @@ This is a faster since it stops once each entry has at least one possible winnin
 ```
 npx @lukekarrys/ebp@latest $GROUP_ID can-win [--fetch|--calculate]
 ```
+
+![](./docs/can-win.png)
 
 **options**
 
