@@ -1,7 +1,7 @@
 {
   "name": "@lukekarrys/ebp",
   "description": "Get all the possible outcomes for an ESPN bracket challenge group",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Luke Karrys <luke@lukekarrys.com>",
   "bin": {
     "ebp": "./bin/index.js",
